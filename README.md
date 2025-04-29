@@ -29,9 +29,15 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 # PROGRAM :
+
 <html>
-    <head>
+
+ 
+      <head>
+
+     
         <style>
+        
             body
             {
                 align-content: center;
@@ -41,7 +47,10 @@ Publish the website in the given URL.
                 width:240px; height:250px; border:solid;background-color: azure;align-content: center;margin-left: auto;margin-right: auto;
             }
         </style>
+
+        
     </head>
+    
     <body align="center" style="background:linear-gradient(to top right,red,blue)">
         <div>
             <br>
@@ -60,8 +69,11 @@ Publish the website in the given URL.
             <output id="out"></output>
 
         </div>
+        
         <script>
+        
             function cal()
+            
             {
                 var int=Number(document.getElementById("v1").value);
                 var res=Number(document.getElementById("v2").value);
@@ -71,8 +83,12 @@ Publish the website in the given URL.
 
             }
         </script>
+        
     </body>
+
+
 </html>
+
 
 
 
